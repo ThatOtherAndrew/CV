@@ -1,6 +1,11 @@
 name: Build and publish CV
 on: push
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   typst:
     name: Typst compile
