@@ -11,6 +11,12 @@
     <meta property="og:locale" content="en_GB">
     <meta property="og:type" content="website">
 
+    <script>
+        if (!navigator.pdfViewerEnabled) {
+            window.location.replace('/andrew-stroev-cv.pdf');
+        }
+    </script>
+
     <style>
         html, body {
             margin: 0;
@@ -25,6 +31,6 @@
     </style>
 </head>
 <body>
-    <embed type="application/pdf" src="./cv.pdf">
+    <embed type="application/pdf" src="andrew-stroev-cv.pdf">
 </body>
 </html>

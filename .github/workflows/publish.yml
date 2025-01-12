@@ -19,13 +19,13 @@ jobs:
         uses: typst-community/setup-typst@v3
 
       - name: Compile CV to PDF
-        run: typst compile --font-path src/fonts src/main.typ site/cv.pdf
+        run: typst compile --font-path src/fonts src/main.typ site/andrew-stroev-cv.pdf
 
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
-          name: CV - Andrew Stroev.pdf
-          path: site/cv.pdf
+          name: andrew-stroev-cv.pdf
+          path: site/andrew-stroev-cv.pdf
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
