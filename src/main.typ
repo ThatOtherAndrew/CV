@@ -258,7 +258,7 @@
       right: url("https://www.reusingit.org/", "www.reusingit.org"),
       [
         - Developed a bootable USB to automatically reconfigure NHS thin clients for use as Ukrainian school PCs
-        - Saved over 10,000 thin client devices from going to waste, shipping them to students impacted by war
+        - Saved over 2500 thin client devices from going to waste, shipping them to students impacted by war
       ],
     )
     entry(
