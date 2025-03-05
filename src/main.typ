@@ -15,7 +15,7 @@
 #show: cv.with(
   theme: default,
   title: "Andrew Stroev",
-  subtitle: "Computer Scientist, Software Developer, Problem Solver",
+  subtitle: v(-12pt),
   aside: {
     section(
       theme: emphasis,
@@ -189,7 +189,7 @@
         entry(
           "Misc.",
           none,
-          "Competitive Programming",
+          "Competitive Programming,\nHackathons, Unconferences"
         )
       },
     )
@@ -209,13 +209,13 @@
   "Previous Experience",
   {
     entry(
-      "Dec 2024",
-      "Advent of Code",
-      right: url("https://adventofcode.com", "adventofcode.com"),
+      "Feb 2025",
+      "TermOS",
+      right: url("https://github.com/ThatOtherAndrew/TermOS", "github.com/ThatOtherAndrew/TermOS"),
       [
-        - Scored 40 stars in 2024, peak global rank 409th place
-        - Previously scored 32 stars in 2023 and 30 stars in 2022
-      ],
+        - Created a TUI fantasy OS/DE in pure Python in 24 hours
+        - Won first place in the HackLondon 2025 hackathon
+      ]
     )
     entry(
       "Sep 2024",
@@ -241,6 +241,7 @@
       [
         - Created a Python graph-based DSP engine from scratch
         - Used as teaching tool for music and audio processing
+        - Invited to present at #url("https://2025.pycon.it/", "PyCon Italia") and #url("https://pycon.ee/", "PyCon Estonia")
       ],
     )
     entry(
@@ -258,7 +259,7 @@
       right: url("https://www.reusingit.org/", "www.reusingit.org"),
       [
         - Developed a bootable USB to automatically reconfigure NHS thin clients for use as Ukrainian school PCs
-        - Saved over 2500 thin client devices from going to waste, shipping them to students impacted by war
+        - Saved over 10,000 thin client devices from going to waste, shipping them to students impacted by war
       ],
     )
     entry(
@@ -283,7 +284,7 @@
     )
     v(5pt)
     [
-      Also participated in *Hack Club*, *Bebras*, *Scottish Mathematical Challenge*, *International Collegiate Programming Contests* (UKIEPC and NWERC), *UK Maths Trust*, *National Youth Orchestras*, and more.
+      Also participated in *Hack Club*, *Advent of Code*, *Scottish Mathematical Challenge*, *International Collegiate Programming Contests* (UKIEPC and NWERC), *UK Maths Trust*, *Bebras*, and *National Youth Orchestras*.
     ]
   },
 )
