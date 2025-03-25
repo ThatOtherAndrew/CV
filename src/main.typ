@@ -206,6 +206,32 @@
 // )
 
 #section(
+  "Skills & Technologies",
+  [
+    Highly proficient in *Python*, experienced with *HTML/CSS* and *JS/TS* and adjacent frameworks (*Svelte*, *Astro*). Proficient in *Git*, *CI/CD*, *Docker*, and using *Linux*. Adept at working in *team settings* and a *fast learner*.
+  ]
+)
+
+#section(
+  "Educational Background",
+  {
+    entry(
+      theme: emphasis,
+      [2024 #sym.dash 2028],
+      "University of St Andrews",
+      right: "BSc Computer Science",
+      none,
+    )
+    entry(
+      [2018 #sym.dash 2024],
+      "Erskine Stewart's Melville Schools",
+      right: "Secondary School",
+      none,
+    )
+  },
+)
+
+#section(
   "Previous Experience",
   {
     entry(
@@ -286,31 +312,5 @@
     [
       Also participated in *Hack Club*, *Advent of Code*, *Scottish Mathematical Challenge*, *International Collegiate Programming Contests* (UKIEPC and NWERC), *UK Maths Trust*, *Bebras*, and *National Youth Orchestras*.
     ]
-  },
-)
-
-#section(
-  "Skills & Technologies",
-  [
-    Highly proficient in *Python*, experienced with *HTML/CSS* and *JS/TS* and adjacent frameworks (*Svelte*, *Astro*). Proficient in *Git*, *CI/CD*, *Docker*, and using *Linux*. Adept at working in *team settings* and a *fast learner*.
-  ]
-)
-
-#section(
-  "Educational Background",
-  {
-    entry(
-      theme: emphasis,
-      [2024 #sym.dash 2028],
-      "University of St Andrews",
-      right: "BSc Computer Science",
-      none,
-    )
-    entry(
-      [2018 #sym.dash 2024],
-      "Erskine Stewart's Melville Schools",
-      right: "Secondary School",
-      none,
-    )
   },
 )
