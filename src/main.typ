@@ -189,7 +189,7 @@
         entry(
           "Misc.",
           none,
-          "Competitive Programming,\nHackathons, Unconferences"
+          "Competitive Programming,\nHackathons, (Un)conferences"
         )
       },
     )
@@ -235,6 +235,15 @@
   "Previous Experience",
   {
     entry(
+      "May 2025",
+      "PyCon IT",
+      right: url("https://2025.pycon.it/en/submission/npqm", "2025.pycon.it/en/submission/npqm"),
+      [
+        - Invited to speak about digital audio processing
+        - Youngest speaker at PyCon IT 2025
+      ]
+    )
+    entry(
       "Feb 2025",
       "TermOS",
       right: url("https://github.com/ThatOtherAndrew/TermOS", "github.com/ThatOtherAndrew/TermOS"),
@@ -267,7 +276,6 @@
       [
         - Created a Python graph-based DSP engine from scratch
         - Used as teaching tool for music and audio processing
-        - Invited to present at #url("https://2025.pycon.it/", "PyCon Italia") and #url("https://pycon.ee/", "PyCon Estonia")
       ],
     )
     entry(
@@ -305,7 +313,7 @@
         - Designed and developed a Discord bot framework in Python, with comprehensive documentation
         - Implemented full CI/CD, Docker, and a project website
         - Created a marketing and project demonstration video
-        - Presented project at the Coolest Projects UK 2024 #linebreak() showcase and won the Judges' Favourite award in the _Advanced Programming_ category
+        - Won _Judges' Favourite (Advanced Programming_) at #url("https://online.coolestprojects.org/", "Coolest Projects UK 2024")
       ],
     )
     v(5pt)
