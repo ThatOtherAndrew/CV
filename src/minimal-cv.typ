@@ -64,7 +64,7 @@
 
   {
     show heading.where(level: 1): set text(size: 2.5em)
-    show heading.where(level: 2): set text(size: 1.5em, weight: "regular")
+    show heading.where(level: 2): set text(size: 1.2em, weight: "regular")
     show heading.where(level: 1): set text(fill: th("header-accent-color", default: "accent-color"))
     show heading.where(level: 2): set text(fill: th("header-body-color", default: "body-color").lighten(30%))
 

@@ -15,7 +15,9 @@
 #show: cv.with(
   theme: default,
   title: "Andrew Stroev",
-  subtitle: v(-12pt),
+  subtitle: [
+    Experiential polyglot. Pursuing what I'm most interested in at every given point in time.
+  ],
   aside: {
     section(
       theme: emphasis,
@@ -26,7 +28,7 @@
           {
             fa-icon("house", solid: true)
             h(5pt)
-            "Edinburgh, Scotland"
+            "St Andrews, Scotland"
           },
           none,
         )
@@ -80,13 +82,13 @@
           none,
         )
         entry(
-          "SQA Adv.",
+          [SQA Adv.#linebreak()Higher#v(-1em)],
           "Computer Science",
           right: "A",
           none,
         )
         entry(
-          "Higher",
+          none,
           "Mathematics",
           right: "A",
           none,
@@ -205,12 +207,13 @@
 //   ]
 // )
 
-#section(
-  "Skills & Technologies",
-  [
-    Highly proficient in *Python*, experienced with *HTML/CSS* and *JS/TS* and adjacent frameworks (*Svelte*, *Astro*). Proficient in *Git*, *CI/CD*, *Docker*, and using *Linux*. Adept at working in *team settings* and a *fast learner*.
-  ]
-)
+// #section(
+//   "Skills & Technologies",
+//   [
+//     Highly proficient in *Python*, experienced with *HTML/CSS* and *JS/TS* and adjacent frameworks (*Svelte*, *Astro*). Proficient in *Git*, *CI/CD*, *Docker*, and using *Linux*. Adept at working in *team settings* and a *fast learner*.
+//   ]
+// )
+
 
 #section(
   "Educational Background",
@@ -234,6 +237,23 @@
 #section(
   "Previous Experience",
   {
+    entry(
+      "August 2025",
+      "Hack Club: Shipwrecked",
+      right: url("https://shipwrecked.hackclub.com/", "shipwrecked.hackclub.com"),
+      [
+        - Invited to 4-day hackathon for shipping 4 projects
+        - Successfully "went viral" with one project
+      ]
+    )
+    entry(
+      "July 2025",
+      "SPARC",
+      right: url("https://sparc.camp/", "sparc.camp"),
+      [
+        - Selected to attend the SPARC 2025 summer program
+      ]
+    )
     entry(
       "May 2025",
       "PyCon IT",
@@ -275,7 +295,7 @@
       right: url("https://synchrotron.thatother.dev/", "synchrotron.thatother.dev"),
       [
         - Created a Python graph-based DSP engine from scratch
-        - Used as teaching tool for music and audio processing
+        - Reached front page of Hacker News
       ],
     )
     entry(
@@ -311,8 +331,8 @@
       right: url("https://breadcord.com/", "breadcord.com"),
       [
         - Designed and developed a Discord bot framework in Python, with comprehensive documentation
-        - Implemented full CI/CD, Docker, and a project website
-        - Created a marketing and project demonstration video
+        // - Implemented full CI/CD, Docker, and a project website
+        // - Created a marketing and project demonstration video
         - Won _Judges' Favourite (Advanced Programming_) at #url("https://online.coolestprojects.org/", "Coolest Projects UK 2024")
       ],
     )
