@@ -286,7 +286,7 @@
       right: url("https://espr.camp/", "espr.camp"),
       [
         - Selected to attend the ESPR 2024 summer camp
-        - Presented lectures on digital signal processing and computational graphs in Queen's College, Oxford
+        - Presented talks on digital signal processing and computational graphs in Queen's College, Oxford
       ],
     )
     entry(
@@ -304,7 +304,7 @@
       [
         - Tutored SQA National 5 Mathematics privately
         - Praised for high-quality notes and clear explanations
-        - Continuing to write STEM-focused educational material to this day (e.g. #url("https://revisionti.me/", "revisionti.me") and #url("https://notes.thatother.dev/", "notes.thatother.dev"))
+        - Wrote STEM-focused educational material and class notes (e.g. #url("https://notes.thatother.dev/", "notes.thatother.dev"))
       ],
     )
     entry(
