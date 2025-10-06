@@ -16,7 +16,7 @@
   theme: default,
   title: "Andrew Stroev",
   subtitle: [
-    Experiential polyglot. Pursuing what I'm most interested in at every given point in time.
+    Pursuing what I'm most interested in for every given point in time.
   ],
   aside: {
     section(
@@ -238,12 +238,21 @@
   "Previous Experience",
   {
     entry(
+      "October 2025",
+      "PyCon Italia & Estonia",
+      right: url("https://pycon.org/", "pycon.org"),
+      [
+        - Invited to speak about Synchrotron in Italy and Estonia
+        - Youngest speaker at PyCon IT 2025
+      ]
+    )
+    entry(
       "August 2025",
       "Hack Club: Shipwrecked",
       right: url("https://shipwrecked.hackclub.com/", "shipwrecked.hackclub.com"),
       [
         - Invited to 4-day hackathon for shipping 4 projects
-        - Successfully "went viral" with one project
+        - Successfully "went viral" on Hacker News
       ]
     )
     entry(
@@ -252,15 +261,6 @@
       right: url("https://sparc.camp/", "sparc.camp"),
       [
         - Selected to attend the SPARC 2025 summer program
-      ]
-    )
-    entry(
-      "May 2025",
-      "PyCon IT",
-      right: url("https://2025.pycon.it/en/submission/npqm", "2025.pycon.it/en/submission/npqm"),
-      [
-        - Invited to speak about digital audio processing
-        - Youngest speaker at PyCon IT 2025
       ]
     )
     entry(
@@ -312,7 +312,7 @@
       "Reusing IT",
       right: url("https://www.reusingit.org/", "www.reusingit.org"),
       [
-        - Developed a bootable USB to automatically reconfigure NHS thin clients for use as Ukrainian school PCs
+        - Solo developed a bootable USB to automatically reconfigure NHS thin clients for use as Ukrainian school PCs
         - Saved over 10,000 thin client devices from going to waste, shipping them to students impacted by war
       ],
     )
