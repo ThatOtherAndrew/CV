@@ -44,8 +44,9 @@
             '';
 
             installPhase = ''
-              mkdir -p $out
-              cp cv.pdf $out/andromeda-cv.pdf
+              mkdir -p $out/site
+              cp cv.pdf $out/site/andromeda-cv.pdf
+              cp ${./index.html} $out/site/index.html
             '';
           };
         }
