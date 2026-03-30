@@ -36,7 +36,7 @@
 
             src = ./src;
 
-            nativeBuildInputs = [ texEnv ];
+            nativeBuildInputs = [ texEnv pkgs.poppler-utils pkgs.imagemagick ];
 
             buildPhase = ''
               export TEXMFHOME="$TMPDIR/texmf"
@@ -45,8 +45,17 @@
 
             installPhase = ''
               mkdir -p $out/site
+
               cp cv.pdf $out/site/andromeda-cv.pdf
               cp ${./index.html} $out/site/index.html
+
+              # Generate OG preview image: render page 1 at high res, resize width to 1200, crop top 630px,
+              # then composite a white gradient fade at the bottom
+              pdftoppm -f 1 -l 1 -r 300 -png cv.pdf preview
+              convert preview-1.png -resize 1200x -crop 1200x630+0+0 +repage \
+                \( -size 1200x200 gradient:none-white \) \
+                -gravity south -composite \
+                $out/site/preview.webp
             '';
           };
         }
