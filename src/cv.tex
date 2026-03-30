@@ -1,0 +1,219 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Andromeda (Andrew) Stroev} \\ \vspace{1pt}
+    \small +44 7539072106 $|$ \href{mailto:andromeda@thatother.dev}{\underline{andromeda@thatother.dev}} $|$ 
+    \href{https://linkedin.com/in/andrew-stroev}{\underline{linkedin.com/in/andrew-stroev}} $|$
+    \href{https://github.com/ThatOtherAndrew}{\underline{github.com/ThatOtherAndrew}}
+\end{center}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of St Andrews}{St Andrews, Scotland}
+      {BSc (Hons) Computer Science}{2024 -- 2028}
+      \resumeItemListStart
+        \resumeItem{1st in year for CS1007 Computer Systems Fundamentals}
+        \resumeItem{Deans' List awardee for top academic performance}
+        \resumeItem{First year Class Representative (2024 -- 2025)}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+          {Synchrotron}{July 2024 -- Present}
+          {\href{https://synchrotron.thatother.dev}{synchrotron.thatother.dev}}{Python, NumPy, Lark, Svelte Flow}
+          \resumeItemListStart
+            \resumeItem{Built a hackable graph-based synthesiser and live audio engine in pure Python}
+            \resumeItem{Created a domain-specific language (Synchrolang) and web-based editor}
+            \resumeItem{Presented at conferences and events in the UK, Italy, Estonia and Canada}
+            \resumeItem{Reached front page of Hacker News}
+          \resumeItemListEnd
+      \resumeSubheading
+          {Hexecute}{October 2025 -- Present}
+          {\href{https://hexecute.app}{hexecute.app}}{Go, Wayland, GLSL shaders, Astro}
+          \resumeItemListStart
+            \resumeItem{Created a gesture-based desktop launcher application for Linux}
+            \resumeItem{Reached 400k+ social media views and 600+ GitHub stars}
+          \resumeItemListEnd
+      \resumeSubheading
+          {Infinidesk}{January 2026 -- Present}
+          {\href{https://github.com/ThatOtherAndrew/Infinidesk}{github.com/ThatOtherAndrew/Infinidesk}}{C, Wayland, wlroots, Nix}
+          \resumeItemListStart
+            \resumeItem{Created an infinite canvas window manager}
+            \resumeItem{Won 1st place in the \emph{Best Developer Tooling} track at \href{https://ic-hack-26.devpost.com/}{IC Hack 26}}
+          \resumeItemListEnd
+      \resumeSubheading
+          {TermOS $|$ Terminal93}{March 2025 -- January 2026}
+          {\href{https://github.com/ThatOtherAndrew/TermOS}{github.com/ThatOtherAndrew/TermOS} $|$ \href{https://terminal93.fly.dev}{terminal93.fly.dev}}{Python, Textual, Docker}
+          \resumeItemListStart
+            \resumeItem{Built a terminal app and browser port of a fantasy desktop operating system}
+            \resumeItem{Won 1st place in the \emph{A World Without X} track at \href{https://www.huzzle.com/events/hacklondon-2025-884200}{HackLondon 2025}}
+          \resumeItemListEnd
+      \resumeSubheading
+          {Breadcord}{November 2022 -- May 2024}
+          {\href{https://breadcord.github.io/Breadcord}{breadcord.github.io/Breadcord}}{Python, discord.py, MkDocs, Textual, Pydantic, Docker}
+          \resumeItemListStart
+            \resumeItem{Designed and developed a Discord bot framework in Python, with comprehensive documentation}
+            \resumeItem{Recorded and edited a 6-minute pitch video}
+            \resumeItem{Won \emph{Judges' Favourite (Advanced Programming)} at \href{https://online.coolestprojects.org/}{Coolest Projects UK 2024}}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Activities}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {Conferences \& Showcases}{}
+        \resumeItemListStart
+          \resumeItem{Youngest speaker at PyCon Italia \& PyCon Estonia 2025}
+          \resumeItem{Two times main stage speaker \& music performer at Ensemble (\href{https://ensemble.rodeo}{ensemble.rodeo}) in London}
+          \resumeItem{Booth demoer at \href{https://symposium.socratica.info/}{Socratica Symposium} 2026 in Waterloo, Canada}
+        \resumeItemListEnd
+      \resumeProjectHeading
+        {Summer Programmes}{}
+        \resumeItemListStart
+          \resumeItem{Attended ESPR 2024 \& 2025 rationality camps in Oxford \& Somerset (approx. 5\% acceptance rate)}
+          \resumeItem{Attended SPARC 2025 rationality camp in the Bay Area (approx. 6\% acceptance rate)}
+        \resumeItemListEnd
+      \resumeProjectHeading
+        {Hackathons \& Competitions}{}
+        \resumeItemListStart
+          \resumeItem{1st place winner at IC Hack 26, HackLondon 2025, Coolest Projects UK 2024}
+          \resumeItem{2nd place winner at Hack Club Parthenon}
+          \resumeItem{Competed in ICPC NWERC 2024, qualifying via UKIEPC, representing the University of St Andrews}
+          \resumeItem{24/24 stars on Advent of Code 2025, 40/50 stars in 2024}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Awards}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {Merge Grant}{May 2025}
+        \resumeItemListStart
+          \resumeItem{Awarded \$900 + perks to assist with the development of Synchrotron}
+        \resumeItemListEnd
+      \resumeProjectHeading
+        {The Start Up Challenge}{April 2025}
+        \resumeItemListStart
+          \resumeItem{Awarded £1500 by Santander Universities for pitching Synchrotron}
+        \resumeItemListEnd
+      \resumeProjectHeading
+        {The Dawson International Innovation Prize}{June 2024}
+        \resumeItemListStart
+          \resumeItem{Awarded for designing, deploying, and maintaining an automated live bus timetable for school bus services}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Mathematics Tutor}{March 2024}
+      {Freelance}{Edinburgh, Scotland}
+      \resumeItemListStart
+        \resumeItem{Privately tutored SQA National 5 Mathematics, praised for clear explanations}
+        \resumeItem{Wrote and published STEM-focused articles and notes online}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Computer Technician}{May 2023}
+      {Reusing IT}{Livingston, Scotland}
+      \resumeItemListStart
+        \resumeItem{Designed and developed a bootable USB to automatically repurpose NHS thin clients as Ukrainian school PCs}
+        \resumeItem{Saved over 10,000 thin client devices from going to waste, shipping them to war-impacted students}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Human Languages}{: English (Native), Mandarin Chinese (Native), Russian (Native), German (Beginner)} \\
+     \textbf{Programming Languages}{: Python, HTML/CSS, JavaScript/TypeScript, Nix, SQL, Bash, Go, C} \\
+     \textbf{Developer Tools}{: Git, Docker, GitHub Actions, Nix, Figma, Linux, LLMs, SSGs, JetBrains IDEs}
+    }}
+ \end{itemize}
+
+\end{document}
+
