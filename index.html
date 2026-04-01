@@ -14,25 +14,10 @@
     <meta property="og:type" content="website">
 
     <script>
-        if (!navigator.pdfViewerEnabled) {
-            window.location.replace('/andromeda-cv.pdf');
-        }
+        window.location.replace('/andromeda-cv.pdf');
     </script>
-
-    <style>
-        html, body {
-            margin: 0;
-            height: 100%;
-        }
-
-        embed {
-            display: block;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
 </head>
 <body>
-    <embed type="application/pdf" src="andromeda-cv.pdf">
+    <a href="/andromeda-cv.pdf">andromeda-cv.pdf</a>
 </body>
 </html>
